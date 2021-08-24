@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
             totalCal = 0
             binding.customCal.changeBarColor(0)
             binding.tvCalTxt.text = "${totalCal} Kcal"
+            binding.btnBurnCalory.isEnabled = true
         }
     }
 }
